@@ -106,6 +106,7 @@ body{
     .nav__list{ width: 50%; }
 }
 @media screen and (max-width: 768px){
+    html { font-size: 50%; }
     .nav__list{
         position: absolute;
         right: 0;
