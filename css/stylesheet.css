@@ -36,10 +36,11 @@ body{
     width: 100vw;
     z-index: 1;
 }
-.section-1{ background-image: url(/img/bg-1.jpg); }
-.section-2{ background-image: url(/img/bg-2.jpg); background-attachment: scroll;}
-.section-3{ background-image: url(/img/bg-3.jpg); }
-.section-4{ background-image: url(/img/bg-4.jpg); background-attachment: scroll;}
+.section:nth-child(even){ background-attachment: scroll;}
+.section:nth-child(1){ background-image: url(/img/bg-1.jpg); }
+.section:nth-child(2){ background-image: url(/img/bg-2.jpg); }
+.section:nth-child(3){ background-image: url(/img/bg-3.jpg); }
+.section:nth-child(4){ background-image: url(/img/bg-4.jpg); }
 .section__title{
     position: absolute;
     top: 50%;
